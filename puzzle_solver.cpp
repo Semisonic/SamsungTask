@@ -130,7 +130,6 @@ private:
                 // Mainly for demonstration purposes, i.e. works but is overly simple
                 // In the real world, use sth. like boost.hash_combine
                 return h1 << 32 | h2;
-                //return h1 ^ h2;
             }
         };        
         using vertex_index_pair_t = std::pair<index_type_t, index_type_t>;
